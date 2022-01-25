@@ -15,7 +15,7 @@ terraform {
     organization = "acg-tf-demo" #creao en TFC
 
     workspaces {
-      name = "acg-demo-github-actions"
+      name = "acg-demo-github-actions" #creado en tfc
     }
   }
 }

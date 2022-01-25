@@ -12,7 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "acg-tf-demo"
+    organization = "acg-tf-demo" #creao en TFC
 
     workspaces {
       name = "acg-demo-github-actions"

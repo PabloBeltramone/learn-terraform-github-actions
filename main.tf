@@ -1,5 +1,5 @@
 terraform {
-  required_providers {
+  required_providers { #proveedor
     aws = {
       source  = "hashicorp/aws"
       version = "3.26.0"
